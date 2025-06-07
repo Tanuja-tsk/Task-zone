@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background:white;
+  display: flex;
+  justify-content:center;
+  padding: 60px;
+  border-color: black;
+   font-family: Arial, sans-serif;
+    background-image: url('bg2.jpg');
+    background-size: cover;         
+    background-repeat: no-repeat;   
+    background-position: absolute; 
+}
+
+.todo-container {
+  background: rgb(209, 236, 209);
+  padding: 20px 30px;
+  border-radius:10px;
+ 
+  width: 300px;
+}
+
+.todo-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.todo-form {
+  display: flex;
+
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 8px;
+  border: 2px 
+  border-radius 4px 0 0 4px;
+}
+
+.todo-form button {
+  padding: 8px 12px;
+  
+  background: rgb(83, 131, 83);
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.todo-form button:hover {
+  background: #74dba7;
+}
+
+.todo-list {
+ flex : 1;
+  padding: 2px;
+}
+
+.todo-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background: rgb(209, 233, 209);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-list li input[type="checkbox"] {
+  margin-right: 30px;
+}
+
+ 
