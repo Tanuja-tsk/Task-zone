@@ -38,3 +38,5 @@ Filter completed/pending tasks
 Drag and drop sorting
 
 Dark mode support
+"Still on working to include some artifical intelligence,that guides us"
+its just a rough design , more features will be included in it like anime lovers could love it
